@@ -12,8 +12,7 @@
         android:layout_height="729dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="1dp">
 
         <TextView
             android:id="@+id/textView3"
@@ -41,8 +40,7 @@
             android:id="@+id/boton_ingresar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ingresar"
-            android:textColorLink="#673AB7" />
+            android:text="Ingresar" />
 
         <Button
             android:id="@+id/boton_registrarse"
@@ -50,7 +48,7 @@
             android:layout_height="wrap_content"
             android:text="Registrarse"
             android:textColor="#FFF5F5"
-            android:textColorLink="#F0F0F0" />
+            android:textColorLink="#F4F4F4" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
