@@ -17,24 +17,24 @@
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="87dp" />
+            android:layout_height="118dp" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="53dp"
             android:text="Bienvenido a FitTracker !"
             android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textSize="34sp"
+            android:textAllCaps="true"
+            android:textColor="#691EB4"
+            android:textSize="29sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="243dp"
-            app:srcCompat="@drawable/_234" />
+            android:layout_height="272dp"
+            app:srcCompat="@drawable/morado" />
 
         <Button
             android:id="@+id/boton_ingresar"
