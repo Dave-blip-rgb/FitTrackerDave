@@ -17,6 +17,7 @@ import java.util.List;
 
 public class SpinnerActivity extends AppCompatActivity {
 
+    Button boton_volver_inicio;
     Button boton_entrar_recycler;
     List<String> Entrenamientos = new ArrayList<>();
     Spinner spinner;
@@ -31,6 +32,12 @@ public class SpinnerActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        boton_volver_inicio = findViewById(R.id.boton_volver_inicio);
+
+        boton_volver_inicio.setOnClickListener(v ->
+                startActivity( new Intent(SpinnerActivity.this , MainActivity.class))
+        );
 
         boton_entrar_recycler = findViewById(R.id.boton_entrar_recycler);
 
