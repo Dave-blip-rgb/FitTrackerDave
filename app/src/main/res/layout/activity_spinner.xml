@@ -11,7 +11,7 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="44dp"
         android:text="¿Qué entrenamiento llevaste a cabo?"
         android:textAllCaps="true"
         android:textSize="15sp"
@@ -21,17 +21,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/boton_volver_inicio"
-        android:layout_width="255dp"
-        android:layout_height="40dp"
-        android:text="Volver al Inicio"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="271dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/boton_entrar_recycler"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <CheckBox
         android:id="@+id/checkBox3"
@@ -55,16 +52,52 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/ratingBar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox4"
         app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Ver proceso"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <Button
+        android:id="@+id/boton_volver_inicio"
+        android:layout_width="255dp"
+        android:layout_height="40dp"
+        android:text="Volver al Inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_entrar_recycler"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <Button
+        android:id="@+id/boton_entrar_recycler"
+        android:layout_width="257dp"
+        android:layout_height="39dp"
+        android:text="Entrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.046" />
 
     <RatingBar
         android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="236dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +118,7 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="20dp"
         android:text="¿Qué complemento realizaste?"
         android:textAlignment="center"
         android:textAllCaps="true"
@@ -110,41 +143,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner"
         app:layout_constraintVertical_bias="0.0" />
-
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="271dp"
-        android:layout_height="29dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Ver proceso"
-        android:textAllCaps="true"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
-
-    <Button
-        android:id="@+id/boton_entrar_recycler"
-        android:layout_width="257dp"
-        android:layout_height="39dp"
-        android:text="Entrar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:layout_constraintVertical_bias="0.08" />
 
     <CheckBox
         android:id="@+id/checkBox"

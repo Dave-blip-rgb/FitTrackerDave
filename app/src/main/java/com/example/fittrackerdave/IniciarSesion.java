@@ -11,7 +11,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class IniciarSesion extends AppCompatActivity {
+public class
+IniciarSesion extends AppCompatActivity {
 
     Button boton_enviar_sesion;
     Button boton_volver_sesion;
